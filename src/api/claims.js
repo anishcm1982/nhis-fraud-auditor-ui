@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:8080/api/claims";
+const API = "http://13.201.202.44:8088/api/claims";
 
 export const uploadCsv = (formData) =>
   axios.post(`${API}/upload`, formData);
