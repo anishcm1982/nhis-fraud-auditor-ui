@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "https://api-engage.tsaask.com/api/claims";
+const API = "https://salesmantu-ALB-1380453707.ap-south-1.elb.amazonaws.com/api/claims";
 
 export const uploadCsv = (formData) =>
   axios.post(`${API}/upload`, formData);
